@@ -20,7 +20,7 @@ public class StudentDaoHbnt {
             // commit transaction
             transaction.commit();
 
-            System.out.println(" New student adde using hibernate okey");
+            System.out.println(" New student added using hibernate okey");
         } catch (Exception e) {
             if (transaction != null) {
                 transaction.rollback();
